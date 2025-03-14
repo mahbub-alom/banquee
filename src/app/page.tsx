@@ -7,6 +7,7 @@ import appImage3 from "/public/image/app3.png";
 import appImage4 from "/public/image/app4.png";
 import AllinOneBank from "@/Components/AllinOneBank";
 import ThreeCards from "@/Components/ThreeCards";
+import Pricing from "@/Components/Pricing";
 
 export default function Home() {
   return (
@@ -58,6 +59,7 @@ export default function Home() {
       />
       <AllinOneBank />
       <ThreeCards />
+      <Pricing />
     </div>
   );
 }
