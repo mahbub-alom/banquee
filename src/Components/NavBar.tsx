@@ -1,8 +1,9 @@
-"use client"; 
+"use client";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FaAngleDown } from "react-icons/fa";
+import Button from "./Button";
 
 const NavBar = () => {
   const pathname = usePathname();
@@ -11,7 +12,6 @@ const NavBar = () => {
     pathname === path
       ? "bg-gray-200 text-black transition-all duration-300"
       : "hover:bg-gray-100 transition-all duration-300";
-  
 
   const navItem = (
     <>
@@ -74,7 +74,7 @@ const NavBar = () => {
       </div>
       <div className="navbar-end gap-5">
         <button className="text-[#5bb5a2] font-bold">Login</button>
-        <button className="btn btn-active bg-[#5bb5a2] text-white font-light">Open Account</button>
+        <Button title="Open Account"/>
       </div>
     </div>
   );
