@@ -5,6 +5,7 @@ import appImage1 from "/public/image/app1.png";
 import appImage2 from "/public/image/app2.png";
 import appImage3 from "/public/image/app3.png";
 import appImage4 from "/public/image/app4.png";
+import AllinOneBank from "@/Components/AllinOneBank";
 
 export default function Home() {
   return (
@@ -54,7 +55,7 @@ export default function Home() {
         point3="Parturient Lorem"
         appImage={appImage4}
       />
-     
+     <AllinOneBank/>
     </div>
   );
 }
