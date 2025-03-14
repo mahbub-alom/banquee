@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const AllinOneBank = () => {
   return (
-    <div className=" p-8 max-w-6xl mx-auto">
+    <div className="p-8 max-w-6xl mx-auto">
       <div className="text-center mb-15">
         <h2 className="text-3xl font-semibold leading-snug">
           All in one bank. Really.
