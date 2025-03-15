@@ -42,7 +42,9 @@ const BlogsPage = () => {
             key={index}
             onClick={() => filterBlogs(category)}
             className={`transition-all duration-300 p-2 rounded cursor-pointer ${
-              selectedCategory === category ? "bg-gray-200 font-bold" : "hover:bg-gray-100"
+              selectedCategory === category
+                ? "bg-gray-200 font-bold"
+                : "hover:bg-gray-100"
             }`}
           >
             {category}
@@ -62,7 +64,16 @@ const BlogsPage = () => {
               />
               <div className="p-4">
                 <h2 className="text-lg font-semibold">{blog.title}</h2>
-                <p className="text-gray-600 text-sm mt-2">{blog.description}</p>
+                <p className="text-gray-600 text-sm mt-2">
+                  {blog.description.length > 100
+                    ? `${blog.description.substring(0, 100)}...`
+                    : blog.description}
+                </p>
+                {
+                  blog.description.length > 100 &&(
+                    <Link href={`/blogs/${blog.id}`} className="text-blue-500 mt-2 block">Read More</Link>
+                  )
+                }
                 <div className="mt-3 flex gap-2">
                   {blog.categories.map((category, index) => (
                     <span key={index} className="badge badge-outline">
