@@ -7,7 +7,7 @@ import { IoMdCheckmark } from "react-icons/io";
 
 const AppPromo = () => {
   return (
-    <div className="bg-[#5AB3A7] py-16 px-6 md:px-12 rounded-xl flex flex-col md:flex-row  md:items-stretch max-w-6xl mx-auto h-[87.5vh] mb-20 md:gap-30">
+    <div className="bg-[#5AB3A7] py-16 px-6 md:px-12 rounded-xl flex flex-col md:flex-row  md:items-stretch max-w-6xl mx-auto h-[87.5vh] md:gap-30">
       {/* Left Side - Text Content */}
       <div className="text-white md:w-1/2 flex flex-col justify-center">
         <h2 className="text-4xl font-bold leading-tight">

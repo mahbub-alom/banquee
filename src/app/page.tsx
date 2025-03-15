@@ -9,6 +9,7 @@ import AllinOneBank from "@/Components/AllinOneBank";
 import ThreeCards from "@/Components/ThreeCards";
 import Pricing from "@/Components/Pricing";
 import AppPromo from "@/Components/AppPromo";
+import Support from "@/Components/Support";
 
 export default function Home() {
   return (
@@ -62,6 +63,7 @@ export default function Home() {
       <ThreeCards />
       <Pricing />
       <AppPromo/>
+      <Support/>
     </div>
   );
 }
