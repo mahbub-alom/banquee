@@ -5,19 +5,10 @@ import { IoMailUnreadOutline } from "react-icons/io5";
 const SupportPage = () => {
   return (
     <div className="min-h-screen flex items-center justify-center p-6">
-      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-8 bg-white p-8 rounded-lg items-center">
+      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-8 bg-white rounded-lg items-center">
         {/* Left Side: Contact Info */}
         <div>
           <h2 className="text-4xl font-semibold mb-6">Need help?</h2>
-          {/* <div className="space-y-4">
-            <p className="flex items-center gap-2">
-              <span>📞</span> +49 176 123 456 <span className="text-gray-500">(Support Hotline)</span>
-            </p>
-            <p className="flex items-center gap-2">
-              <span>📧</span> help@banquee.com <span className="text-gray-500">(Support Email)</span>
-            </p>
-            <a href="#" className="text-green-500 font-semibold">Support →</a>
-          </div> */}
           <div className="mt-10 space-y-6">
             <div className="flex items-center gap-4">
               <div className="w-10 h-10 rounded-full bg-[#E8F2EE] flex items-center justify-center">
