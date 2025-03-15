@@ -1,5 +1,4 @@
 import Banner from "@/Components/Banner";
-import Image from "next/image";
 import Cards from "@/Components/Reusable/Cards";
 import appImage1 from "/public/image/app1.png";
 import appImage2 from "/public/image/app2.png";

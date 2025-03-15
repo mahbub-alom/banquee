@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import Button from "./Button";
 import { FaArrowRight } from "react-icons/fa";
 import Image from "next/image";
