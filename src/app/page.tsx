@@ -8,6 +8,7 @@ import appImage4 from "/public/image/app4.png";
 import AllinOneBank from "@/Components/AllinOneBank";
 import ThreeCards from "@/Components/ThreeCards";
 import Pricing from "@/Components/Pricing";
+import AppPromo from "@/Components/AppPromo";
 
 export default function Home() {
   return (
@@ -60,6 +61,7 @@ export default function Home() {
       <AllinOneBank />
       <ThreeCards />
       <Pricing />
+      <AppPromo/>
     </div>
   );
 }
