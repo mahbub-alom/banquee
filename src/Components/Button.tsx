@@ -1,6 +1,11 @@
 import React from "react";
 
-const Button = ({title:any}) => {
+// Define Props Type
+interface ButtonProps {
+  title: string;
+}
+
+const Button: React.FC<ButtonProps> = ({ title }) => {
   return (
     <button className="btn btn-active bg-[#5bb5a2] text-white font-light">
       {title}
@@ -9,3 +14,4 @@ const Button = ({title:any}) => {
 };
 
 export default Button;
+

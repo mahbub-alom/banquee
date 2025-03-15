@@ -2,7 +2,19 @@ import Image from "next/image";
 import React from "react";
 import { IoMdCheckmark } from "react-icons/io";
 
-const Cards = ({
+// Define Props Type
+interface CardProps {
+  title: string;
+  heading1st: string;
+  headinglst: string;
+  details: string;
+  point1: string;
+  point2: string;
+  point3: string;
+  appImage: string;
+}
+
+const Cards: React.FC<CardProps> = ({
   title,
   heading1st,
   headinglst,
@@ -26,24 +38,14 @@ const Cards = ({
 
         {/* Bullet Points */}
         <div className="space-y-4">
-          <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 rounded-full bg-[#E8F2EE] flex items-center justify-center">
-              <IoMdCheckmark className="text-[#5BB5A2]" />
+          {[point1, point2, point3].map((point, index) => (
+            <div key={index} className="flex items-center space-x-3">
+              <div className="w-8 h-8 rounded-full bg-[#E8F2EE] flex items-center justify-center">
+                <IoMdCheckmark className="text-[#5BB5A2]" />
+              </div>
+              <span>{point}</span>
             </div>
-            <span>{point1}</span>
-          </div>
-          <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 rounded-full bg-[#E8F2EE] flex items-center justify-center">
-              <IoMdCheckmark className="text-[#5BB5A2]" />
-            </div>
-            <span>{point2}</span>
-          </div>
-          <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 rounded-full bg-[#E8F2EE] flex items-center justify-center">
-              <IoMdCheckmark className="text-[#5BB5A2]" />
-            </div>
-            <span>{point3}</span>
-          </div>
+          ))}
         </div>
       </div>
 
@@ -52,6 +54,8 @@ const Cards = ({
         <Image
           src={appImage}
           alt="App Image"
+          width={400}
+          height={400}
           className="w-[300px] md:w-[400px]"
         />
       </div>

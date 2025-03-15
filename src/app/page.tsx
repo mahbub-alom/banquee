@@ -1,9 +1,5 @@
 import Banner from "@/Components/Banner";
 import Cards from "@/Components/Reusable/Cards";
-import appImage1 from "/public/image/app1.png";
-import appImage2 from "/public/image/app2.png";
-import appImage3 from "/public/image/app3.png";
-import appImage4 from "/public/image/app4.png";
 import AllinOneBank from "@/Components/AllinOneBank";
 import ThreeCards from "@/Components/ThreeCards";
 import Pricing from "@/Components/Pricing";
@@ -18,51 +14,47 @@ export default function Home() {
         title="Transactions"
         heading1st="Send & receive"
         headinglst="money instantly"
-        details="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet."
+        details="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint..."
         point1="Malesuada Ipsum"
         point2="Vestibulum"
         point3="Parturient Lorem"
-        appImage={appImage1}
+        appImage="/image/app1.png" // ✅ Use relative path instead of import
       />
       <Cards
         title="Cards"
         heading1st="Manage"
         headinglst="your cards"
-        details="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        details="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint..."
         point1="Malesuada Ipsum"
         point2="Vestibulum"
         point3="Parturient Lorem"
-        appImage={appImage2}
+        appImage="/image/app2.png"
       />
       <Cards
         title="Advanced Statistics"
         heading1st="Keep control"
         headinglst="over your money"
-        details="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        details="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint..."
         point1="Malesuada Ipsum"
         point2="Vestibulum"
         point3="Parturient Lorem"
-        appImage={appImage3}
+        appImage="/image/app3.png"
       />
       <Cards
         title="Saving Accounts"
         heading1st="Lorem et"
         headinglst="ipsum dolor"
-        details="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet."
+        details="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint..."
         point1="Malesuada Ipsum"
         point2="Vestibulum"
         point3="Parturient Lorem"
-        appImage={appImage4}
+        appImage="/image/app4.png"
       />
       <AllinOneBank />
       <ThreeCards />
       <Pricing />
-      <AppPromo/>
-      <Support/>
+      <AppPromo />
+      <Support />
     </div>
   );
 }
