@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import AllData from "@/lib/getAllData";
+import Link from "next/link"; // Import Link for navigation
+import AllData from "@/lib/getAllBlog";
 
 const BlogsPage = () => {
   const [blogs, setBlogs] = useState([]);
@@ -11,7 +12,7 @@ const BlogsPage = () => {
     const fetchData = async () => {
       const data = await AllData();
       setBlogs(data);
-      setFilteredBlogs(data); // Show all blogs
+      setFilteredBlogs(data); // Show all blogs initially
     };
 
     fetchData();
@@ -40,7 +41,9 @@ const BlogsPage = () => {
           <button
             key={index}
             onClick={() => filterBlogs(category)}
-            className="text-black transition-all duration-300 hover:bg-gray-100 p-2 rounded cursor-pointer"
+            className={`transition-all duration-300 p-2 rounded cursor-pointer ${
+              selectedCategory === category ? "bg-gray-200 font-bold" : "hover:bg-gray-100"
+            }`}
           >
             {category}
           </button>
@@ -50,27 +53,26 @@ const BlogsPage = () => {
       {/* Blog Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredBlogs.map((blog) => (
-          <div
-            key={blog.id}
-            className="bg-white shadow-lg rounded-lg overflow-hidden"
-          >
-            <img
-              src={blog.image}
-              alt={blog.title}
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-4">
-              <h2 className="text-lg font-semibold">{blog.title}</h2>
-              <p className="text-gray-600 text-sm mt-2">{blog.description}</p>
-              <div className="mt-3 flex gap-2">
-                {blog.categories.map((category, index) => (
-                  <span key={index} className="badge badge-outline">
-                    {category}
-                  </span>
-                ))}
+          <Link key={blog.id} href={`/blogs/${blog.id}`} passHref>
+            <div className="bg-white shadow-lg rounded-lg overflow-hidden cursor-pointer hover:shadow-xl transition">
+              <img
+                src={blog.image}
+                alt={blog.title}
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-4">
+                <h2 className="text-lg font-semibold">{blog.title}</h2>
+                <p className="text-gray-600 text-sm mt-2">{blog.description}</p>
+                <div className="mt-3 flex gap-2">
+                  {blog.categories.map((category, index) => (
+                    <span key={index} className="badge badge-outline">
+                      {category}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

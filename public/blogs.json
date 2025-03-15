@@ -1,73 +1,72 @@
 [
-    {
-      "id": 1,
-      "title": "How To Start Using bank For Your Startup",
-      "description": "Learn how to effectively set up and use bank for your startup success.",
-      "image": "https://thebell.io/wp-content/uploads/2021/08/square-new-1.jpg",
-      "categories": ["App", "Product"]
-    },
-    {
-      "id": 2,
-      "title": "10 Things Nobody Told You About bank",
-      "description": "Discover hidden features and tips about using bank.",
-      "image": "https://images.unsplash.com/photo-1610737241336-371badac3b66?w=960&h=1280&fit=crop",
-      "categories": ["Technology"]
-    },
-    {
-      "id": 3,
-      "title": "How To Start Using bank For Your Startup",
-      "description": "A beginner-friendly guide to getting started with bank.",
-      "image": "https://img.idxchannel.com/media/439/images/idx/2021/09/24/Hidup_Hemat.jpg",
-      "categories": ["App", "Product"]
-    },
-    {
-      "id": 4,
-      "title": "Why We Love bank (And You Should, Too!)",
-      "description": "Reasons why bank is loved by entrepreneurs and businesses.",
-      "image": "https://images.squarespace-cdn.com/content/v1/5fa5e6a14c333406eeaf59bc/baf15915-0b19-4efd-bcfe-631cbb9dc473/the+wellness+makers.jpg",
-      "categories": ["Finance"]
-    },
-    {
-      "id": 5,
-      "title": "5 Principles Of Crypto Investing",
-      "description": "Essential crypto investment principles every investor should know.",
-      "image": "https://telegra.ph/file/d1891e9537d1c5ced686f.jpg",
-      "categories": ["Crypto", "Investment"]
-    },
-    {
-      "id": 6,
-      "title": "7 Things About bank Your Friends Want To Know",
-      "description": "Top insights about bank that you need to share with your friends.",
-      "image": "https://s.yimg.com/ny/api/res/1.2/XB4VSZWTyC4qmk0IY0xXdA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2021-04/a70d0a60-94a0-11eb-b7ce-5b849fc4ade7",
-      "categories": ["Banking", "Finance"]
-    },
-    {
-      "id": 7,
-      "title": "The Future of Digital Banking",
-      "description": "How digital banking is transforming financial services.",
-      "image": "https://akcdn.detik.net.id/community/media/visual/2020/02/25/7243363c-fc02-46e2-b36f-09abd4a45512_43.png?w=250&q=",
-      "categories": ["Technology", "Finance"]
-    },
-    {
-      "id": 8,
-      "title": "How bank Helps Small Businesses Grow",
-      "description": "A deep dive into how bank supports small businesses.",
-      "image": "https://quasa.io/storage/photos/%D0%A4%D0%BE%D1%82%D0%BE%2014/%D0%B0%D0%B0%D0%B0%D0%B0%D0%B0%D0%B1%208.jpeg",
-      "categories": ["Business", "Finance"]
-    },
-    {
-      "id": 9,
-      "title": "The Pros and Cons of Online Banking",
-      "description": "Understanding the advantages and drawbacks of online banking.",
-      "image": "https://www.crowe.com/ca/crowemackay/-/media/crowe/firms/americas/ca/crowemackay/stockphotos/person-woman-two-factor-authentication.png?rev=9ef2118446c943e8a8f0d3952436e9d9&w=1140&hash=C331F156D6C02482C962DB95748B32C3",
-      "categories": ["Finance", "Banking"]
-    },
-    {
-      "id": 10,
-      "title": "Bank Security: How Safe Is Your Money?",
-      "description": "An in-depth look at bank’s security features and how they protect your funds.",
-      "image": "https://img.forbes.kz/forbes-photobank/media/2024-06-10/c24a79c2-81ea-4fda-83f3-7d6bb75d069e.webp",
-      "categories": ["Security", "Technology"]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "How To Start Using bank For Your Startup",
+    "description": "Starting a business comes with a lot of decisions, one of the most important being how to handle your finances. In this guide, we explore how you can effectively set up and use bank for your startup's financial success. From choosing the right bank account to managing cash flow and leveraging business banking tools, we've got all the insights you need to start strong.",
+    "image": "https://thebell.io/wp-content/uploads/2021/08/square-new-1.jpg",
+    "categories": ["App", "Product"]
+  },
+  {
+    "id": 2,
+    "title": "10 Things Nobody Told You About bank",
+    "description": "Using bank services can sometimes feel overwhelming, especially when you're not aware of all the hidden features it offers. This article uncovers 10 useful and lesser-known tips about using bank. From secret shortcuts to underappreciated tools, discover how to make the most out of your banking experience and avoid common pitfalls.",
+    "image": "https://images.unsplash.com/photo-1610737241336-371badac3b66?w=960&h=1280&fit=crop",
+    "categories": ["Technology"]
+  },
+  {
+    "id": 3,
+    "title": "How To Start Using bank For Your Startup",
+    "description": "For entrepreneurs, managing your business's finances is crucial. This beginner-friendly guide walks you through the process of getting started with bank, providing actionable steps and strategies to make your banking experience smoother. Learn about essential banking tools for entrepreneurs, how to streamline financial processes, and avoid common mistakes new business owners make when choosing a bank.",
+    "image": "https://img.idxchannel.com/media/439/images/idx/2021/09/24/Hidup_Hemat.jpg",
+    "categories": ["App", "Product"]
+  },
+  {
+    "id": 4,
+    "title": "Why We Love bank (And You Should, Too!)",
+    "description": "Entrepreneurs and small businesses have a lot of options when it comes to banking. However, bank offers a set of features that have earned it a loyal following. From seamless integration with business tools to customer support that understands your needs, this article breaks down the reasons why we love bank and why you should consider it for your business’s financial management.",
+    "image": "https://images.squarespace-cdn.com/content/v1/5fa5e6a14c333406eeaf59bc/baf15915-0b19-4efd-bcfe-631cbb9dc473/the+wellness+makers.jpg",
+    "categories": ["Finance"]
+  },
+  {
+    "id": 5,
+    "title": "5 Principles Of Crypto Investing",
+    "description": "Investing in cryptocurrency is not for the faint-hearted. However, with the right principles, you can navigate the volatile market and make informed decisions. This post covers the five essential principles every crypto investor should know to maximize potential returns and minimize risks. Whether you're a seasoned investor or a newcomer, these principles will help guide your strategy.",
+    "image": "https://telegra.ph/file/d1891e9537d1c5ced686f.jpg",
+    "categories": ["Crypto", "Investment"]
+  },
+  {
+    "id": 6,
+    "title": "7 Things About bank Your Friends Want To Know",
+    "description": "Banking can be a complex subject, but there are some things about bank that everyone should know, especially if you’re looking to get ahead financially. In this post, we share seven insightful and practical things about bank that your friends will thank you for telling them. From cutting-edge banking features to smart saving tools, you'll find useful tips that will help you and your network manage your finances better.",
+    "image": "https://s.yimg.com/ny/api/res/1.2/XB4VSZWTyC4qmk0IY0xXdA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2021-04/a70d0a60-94a0-11eb-b7ce-5b849fc4ade7",
+    "categories": ["Banking", "Finance"]
+  },
+  {
+    "id": 7,
+    "title": "The Future of Digital Banking",
+    "description": "Digital banking is transforming the financial services industry, bringing convenience, security, and innovation. This article explores the key trends shaping the future of digital banking, including the rise of AI, blockchain, and mobile-first banking solutions. Learn how these technologies are making banking faster, safer, and more accessible for people around the world.",
+    "image": "https://akcdn.detik.net.id/community/media/visual/2020/02/25/7243363c-fc02-46e2-b36f-09abd4a45512_43.png?w=250&q=",
+    "categories": ["Technology", "Finance"]
+  },
+  {
+    "id": 8,
+    "title": "How bank Helps Small Businesses Grow",
+    "description": "Running a small business requires careful planning and efficient management of resources, including finances. Bank provides a variety of solutions designed to help small businesses grow. This post takes a deep dive into how bank’s features, like flexible loan options, invoicing tools, and expense tracking, can support the growth and sustainability of small businesses in today's competitive market.",
+    "image": "https://quasa.io/storage/photos/%D0%A4%D0%BE%D1%82%D0%BE%2014/%D0%B0%D0%B0%D0%B0%D0%B0%D0%B0%D0%B1%208.jpeg",
+    "categories": ["Business", "Finance"]
+  },
+  {
+    "id": 9,
+    "title": "The Pros and Cons of Online Banking",
+    "description": "Online banking offers unmatched convenience, but it's not without its drawbacks. In this post, we break down the pros and cons of using online banking, so you can make an informed decision about whether it's the right choice for you. From easier access to your account 24/7 to potential security concerns, we cover everything you need to know about online banking.",
+    "image": "https://www.crowe.com/ca/crowemackay/-/media/crowe/firms/americas/ca/crowemackay/stockphotos/person-woman-two-factor-authentication.png?rev=9ef2118446c943e8a8f0d3952436e9d9&w=1140&hash=C331F156D6C02482C962DB95748B32C3",
+    "categories": ["Finance", "Banking"]
+  },
+  {
+    "id": 10,
+    "title": "Bank Security: How Safe Is Your Money?",
+    "description": "When it comes to banking, security is one of the most important factors. This article takes an in-depth look at bank’s security features, exploring how it uses encryption, two-factor authentication, and other advanced security protocols to protect your money. Find out how safe your funds are and what steps you can take to further protect your financial information from potential threats.",
+    "image": "https://img.forbes.kz/forbes-photobank/media/2024-06-10/c24a79c2-81ea-4fda-83f3-7d6bb75d069e.webp",
+    "categories": ["Security", "Technology"]
+  }
+]
