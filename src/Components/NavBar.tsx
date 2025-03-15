@@ -31,7 +31,7 @@ const NavBar = () => {
         </Link>
       </li>
       <li>
-        <Link href="/blog" className={`p-2 rounded ${isActive("/blog")}`}>
+        <Link href="/blogs" className={`p-2 rounded ${isActive("/blog")}`}>
           Blog <FaAngleDown />
         </Link>
       </li>
