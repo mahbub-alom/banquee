@@ -1,6 +1,6 @@
 import React from "react";
 
-const Button = ({title}) => {
+const Button = ({title:any}) => {
   return (
     <button className="btn btn-active bg-[#5bb5a2] text-white font-light">
       {title}
