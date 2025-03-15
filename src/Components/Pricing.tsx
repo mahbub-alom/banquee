@@ -29,13 +29,12 @@ const Pricing = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
 
-          <div className="mt-6">
+          <div className="mt-6 w-full">
             <Image
               src={card}
               alt="Basic Card"
-              width={300}
-              height={180}
-              className="rounded-lg"
+             
+              className="rounded-lg w-full h-auto"
             />
           </div>
 
@@ -55,13 +54,12 @@ const Pricing = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
 
-          <div className="mt-6">
+          <div className="mt-6 w-full">
             <Image
               src={card1}
               alt="Premium Card"
-              width={300}
-              height={180}
-              className="rounded-lg"
+      
+              className="rounded-lg w-full h-auto"
             />
           </div>
 
@@ -81,13 +79,12 @@ const Pricing = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
 
-          <div className="mt-6">
+          <div className="mt-6 w-full">
             <Image
               src={card2}
               alt="Gold Card"
-              width={300}
-              height={180}
-              className="rounded-lg"
+             
+              className="rounded-lg w-full h-auto"
             />
           </div>
 
