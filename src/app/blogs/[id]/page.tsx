@@ -54,7 +54,7 @@ const SingleBlogPage = () => {
             </p>
           ))}
         </div>
-        <h1 className="text-xl md:text-2xl font-bold mt-4">{blog.title}</h1>
+        <h1 className="font-bold mt-4">{blog.title}</h1>
         <img src={blog.image} alt={blog.title} className="w-full h-48 md:h-64 object-cover my-4 rounded-lg" />
         <p className="text-gray-600 text-sm md:text-base leading-relaxed">{blog.description}</p>
       </div>

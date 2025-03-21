@@ -1,10 +1,10 @@
-import Banner from "@/Components/Banner";
+import AllinOneBank from "@/Components/components/AllinOneBank";
+import AppPromo from "@/Components/components/AppPromo";
+import Banner from "@/Components/components/Banner";
+import Pricing from "@/Components/components/Pricing";
+import Support from "@/Components/components/Support";
+import ThreeCards from "@/Components/components/ThreeCards";
 import Cards from "@/Components/Reusable/Cards";
-import AllinOneBank from "@/Components/AllinOneBank";
-import ThreeCards from "@/Components/ThreeCards";
-import Pricing from "@/Components/Pricing";
-import AppPromo from "@/Components/AppPromo";
-import Support from "@/Components/Support";
 
 export default function Home() {
   return (

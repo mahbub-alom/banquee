@@ -25,7 +25,7 @@ const Cards: React.FC<CardProps> = ({
   appImage,
 }) => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between p-8 max-w-6xl mx-auto">
+    <div className="card-style">
       {/* Left Section */}
       <div className="md:w-1/2 space-y-6">
         <h3 className="text-gray-500 uppercase text-sm tracking-wide">
