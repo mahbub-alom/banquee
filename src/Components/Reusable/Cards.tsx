@@ -25,25 +25,27 @@ const Cards: React.FC<CardProps> = ({
   appImage,
 }) => {
   return (
-    <div className="card-style">
+    <div className="flex flex-col md:flex-row items-center gap-10 bg-white dark:bg-gray-900 p-6 md:p-12 transition-all duration-300">
       {/* Left Section */}
       <div className="md:w-1/2 space-y-6">
-        <h3 className="text-gray-500 uppercase text-sm tracking-wide">
+        <h3 className="text-gray-500 dark:text-gray-400 uppercase text-sm tracking-wide">
           {title}
         </h3>
-        <h2 className="text-3xl font-semibold leading-snug">
+        <h2 className="text-3xl font-semibold leading-snug text-gray-900 dark:text-white">
           {heading1st} <br /> {headinglst}
         </h2>
-        <p className="text-gray-600 leading-relaxed">{details}</p>
+        <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+          {details}
+        </p>
 
         {/* Bullet Points */}
         <div className="space-y-4">
           {[point1, point2, point3].map((point, index) => (
             <div key={index} className="flex items-center space-x-3">
-              <div className="w-8 h-8 rounded-full bg-[#E8F2EE] flex items-center justify-center">
-                <IoMdCheckmark className="text-[#5BB5A2]" />
+              <div className="w-7 h-7 rounded-full bg-[#E8F2EE] dark:bg-gray-700 flex items-center justify-center">
+                <IoMdCheckmark className="text-[#5BB5A2] dark:text-green-400" />
               </div>
-              <span>{point}</span>
+              <span className="text-gray-800 dark:text-gray-200">{point}</span>
             </div>
           ))}
         </div>
@@ -54,9 +56,9 @@ const Cards: React.FC<CardProps> = ({
         <Image
           src={appImage}
           alt="App Image"
-          width={400}
-          height={400}
-          className="w-[300px] md:w-[400px]"
+          width={250} 
+          height={250}
+          className="w-[180px] md:w-[250px] object-contain"
         />
       </div>
     </div>

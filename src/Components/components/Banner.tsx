@@ -26,11 +26,15 @@ const Banner = () => {
       </div>
 
       {/* Cards Section */}
-      <div className="w-full absolute bottom-0 flex justify-center">
+      <div className="absolute bottom-0 left-0 w-full flex justify-center">
         <Image
           src={bannerImg}
           alt="banner image"
-          className="w-[90%] md:w-auto max-w-lg md:max-w-2xl lg:max-w-4xl"
+          layout="responsive"
+          width={1920} 
+          height={800}
+          className="w-full max-w-none"
+          priority
         />
       </div>
     </section>
