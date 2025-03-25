@@ -5,7 +5,7 @@ import { Button } from "@/Components/ui/button";
 
 const Account = () => {
   return (
-    <section className="flex justify-center items-center py-16 px-4 md:px-8 lg:px-16">
+    <section className="bg-white flex justify-center items-center py-16 px-4 md:px-8 lg:px-16">
       <div className="max-w-4xl w-full text-center">
         {/* Section Heading */}
         <h3 className="text-gray-900 text-sm md:text-base">Accounts</h3>
@@ -30,7 +30,7 @@ const Account = () => {
         {/* Button Section */}
         <div className="flex flex-wrap gap-4 justify-center">
           <Button >Open Account</Button>
-          <Button variant="outline">
+          <Button variant="outline" className="text-black dark:border dark:border-gray-200">
             Compare Cards
           </Button>
         </div>

@@ -44,7 +44,7 @@ const SingleBlogPage = () => {
   if (!blog) return <div className="text-center p-10">Blog not found</div>;
 
   return (
-    <div className="p-4 md:p-6">
+    <div className="p-4 md:p-6 bg-white border">
       {/* Blog Content */}
       <div className="max-w-3xl mx-auto text-center">
         <div className="mt-4 flex flex-wrap justify-center gap-2">

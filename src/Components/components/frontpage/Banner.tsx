@@ -27,24 +27,24 @@ const Banner = () => {
               </div>{" "}
               Instant Transfer
             </div>
-            <p className="flex items-center gap-2">
+            <div className="flex items-center gap-2">
               <div className="w-7 h-7 rounded-full bg-[#5BB5A2] flex items-center justify-center">
                 <IoMdCheckmark className="text-white" />
               </div>{" "}
               Payments worldwide
-            </p>
-            <p className="flex items-center gap-2">
+            </div>
+            <div className="flex items-center gap-2">
               <div className="w-7 h-7 rounded-full bg-[#5BB5A2] flex items-center justify-center">
                 <IoMdCheckmark className="text-white" />
               </div>{" "}
               Saving accounts
-            </p>
-            <p className="flex items-center gap-2">
+            </div>
+            <div className="flex items-center gap-2">
               <div className="w-7 h-7 rounded-full bg-[#5BB5A2] flex items-center justify-center">
                 <IoMdCheckmark className="text-white" />
               </div>{" "}
               100% mobile banking
-            </p>
+            </div>
           </div>
           <div className="mt-6 flex flex-col sm:flex-row gap-4">
             <Button>Open Account</Button>

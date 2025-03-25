@@ -3,7 +3,7 @@ import { FaStar } from "react-icons/fa";
 
 const Testimonials = () => {
   return (
-    <section className="py-16 px-4 md:px-12 lg:px-24 bg-gray-50">
+    <section className="py-16 px-4 md:px-12 lg:px-24 bg-white">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <div className="flex justify-between mb-10">

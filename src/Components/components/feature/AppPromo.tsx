@@ -7,7 +7,8 @@ import { IoMdCheckmark } from "react-icons/io";
 
 const AppPromo = () => {
   return (
-    <div className="bg-[#5AB3A7] py-12 px-6 md:px-16 rounded-xl flex flex-col md:flex-row items-center md:items-stretch max-w-6xl mx-auto min-h-[80vh] md:gap-16">
+ <section className="bg-white">
+     <div className="bg-[#5AB3A7] py-12 px-6 md:px-16 rounded-xl flex flex-col md:flex-row items-center md:items-stretch max-w-6xl mx-auto min-h-[80vh] md:gap-16">
       {/* Left Side - Text Content */}
       <div className="text-white md:w-1/2 flex flex-col justify-center text-center md:text-left">
         <h2 className="text-3xl md:text-4xl font-bold leading-tight">
@@ -66,6 +67,7 @@ const AppPromo = () => {
         />
       </div>
     </div>
+ </section>
   );
 };
 

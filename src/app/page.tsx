@@ -1,5 +1,8 @@
+import AppPromo from "@/Components/components/feature/AppPromo";
+import SupportPage from "@/Components/components/feature/Support";
 import Account from "@/Components/components/frontpage/Account";
 import Banner from "@/Components/components/frontpage/Banner";
+import Blogs from "@/Components/components/frontpage/Blogs";
 import Notifications from "@/Components/components/frontpage/Notifications";
 import OneAppOneBanking from "@/Components/components/frontpage/OneAppOneBanking";
 import Organize from "@/Components/components/frontpage/Organize";
@@ -18,7 +21,10 @@ const Home = () => {
       <Notifications />
       <Sponsor />
       <Account />
-      <Testimonial/>
+      <Testimonial />
+      <AppPromo />
+      <SupportPage />
+      <Blogs />
     </div>
   );
 };
