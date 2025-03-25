@@ -2,6 +2,7 @@ import Banner from "@/Components/components/frontpage/Banner";
 import Notifications from "@/Components/components/frontpage/Notifications";
 import OneAppOneBanking from "@/Components/components/frontpage/OneAppOneBanking";
 import Organize from "@/Components/components/frontpage/Organize";
+import Sponsor from "@/Components/components/frontpage/Sponsor";
 import Transactions from "@/Components/components/frontpage/Transactions";
 import React from "react";
 
@@ -13,6 +14,7 @@ const Home = () => {
       <Transactions />
       <Organize />
       <Notifications />
+      <Sponsor />
     </div>
   );
 };
