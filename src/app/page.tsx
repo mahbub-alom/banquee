@@ -1,4 +1,5 @@
 import Banner from "@/Components/components/frontpage/Banner";
+import Notifications from "@/Components/components/frontpage/Notifications";
 import OneAppOneBanking from "@/Components/components/frontpage/OneAppOneBanking";
 import Organize from "@/Components/components/frontpage/Organize";
 import Transactions from "@/Components/components/frontpage/Transactions";
@@ -11,6 +12,7 @@ const Home = () => {
       <OneAppOneBanking />
       <Transactions />
       <Organize />
+      <Notifications />
     </div>
   );
 };
