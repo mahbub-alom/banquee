@@ -10,7 +10,6 @@ import visa from "/public/sponsor/visa.png";
 import googlepay from "/public/sponsor/googlepay.png";
 import applepay from "/public/sponsor/applepay.png";
 import amazon from "/public/sponsor/amazon.png";
-import { FaArrowRight } from "react-icons/fa";
 import { IoMdCheckmark } from "react-icons/io";
 
 const Sponsor = () => {

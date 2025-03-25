@@ -1,7 +1,6 @@
 
 
 import Image from "next/image";
-import { FaArrowRight } from "react-icons/fa";
 import { Button } from "../../ui/button";
 import bannerImg from "/public/frontpage/cards.png";
 import { IoMdCheckmark } from "react-icons/io";

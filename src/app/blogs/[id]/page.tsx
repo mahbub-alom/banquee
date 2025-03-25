@@ -54,7 +54,7 @@ const SingleBlogPage = () => {
             </p>
           ))}
         </div>
-        <h1 className="font-bold mt-4">{blog.title}</h1>
+        <h1 className="font-bold mt-4 text-gray-900">{blog.title}</h1>
         <img src={blog.image} alt={blog.title} className="w-full h-48 md:h-64 object-cover my-4 rounded-lg" />
         <p className="text-gray-600 text-sm md:text-base leading-relaxed">{blog.description}</p>
       </div>
@@ -62,7 +62,7 @@ const SingleBlogPage = () => {
       {/* Related Articles */}
       <div className="mt-12 max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between text-center md:text-left">
-          <h2 className="text-xl md:text-2xl font-bold">Related Articles</h2>
+        <h2 className="text-2l md:text-4xl font-bold text-gray-900">Related Articles</h2>
           <Link href="/blogs" className="flex items-center gap-2 text-[#5bb5a2] mt-4 md:mt-0">
             <span>All Articles</span>
             <FaArrowRight />
@@ -71,14 +71,14 @@ const SingleBlogPage = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-4">
           {allBlogs.slice(0, 3).map((relatedBlog) => (
             <Link key={relatedBlog.id} href={`/blogs/${relatedBlog.id}`} passHref>
-              <div className="bg-white shadow-lg rounded-lg overflow-hidden cursor-pointer hover:shadow-xl transition">
+              <div className="bg-white rounded-lg overflow-hidden cursor-pointer transition">
                 <img src={relatedBlog.image} alt={relatedBlog.title} className="w-full h-40 md:h-48 object-cover" />
-                <div className="p-4">
-                  <h2 className="text-lg font-semibold">{relatedBlog.title}</h2>
+                <div className="py-4">
+                  <h2 className="text-lg font-semibold text-gray-900">{relatedBlog.title}</h2>
                   <p className="text-gray-600 text-sm mt-2 line-clamp-2">{relatedBlog.description}</p>
                   <div className="mt-3 flex flex-wrap gap-2">
                     {relatedBlog.categories.map((category, index) => (
-                      <span key={index} className="badge border border-gray-300 text-gray-600 text-xs px-2 py-1 rounded-md">
+                      <span key={index} className="badge border border-gray-300 text-gray-600 text-xs px-2 py-1 rounded-md bg-white">
                         {category}
                       </span>
                     ))}
