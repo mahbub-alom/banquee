@@ -7,14 +7,15 @@ import grid2 from "/public/image/grid2.png";
 
 const ThreeCards = () => {
   return (
-    <div className="px-8 pb-8 max-w-6xl mx-auto">
+  <section className="bg-white">
+      <div className="px-8 pb-8 max-w-6xl mx-auto">
       <div className="flex flex-col md:flex-row items-center justify-between gap-10">
-        <div className="card bg-[#F8F8F8] dark:bg-gray-800 md:w-1/2 h-96 rounded-lg shadow-md">
+        <div className="card bg-[#F8F8F8]  md:w-1/2 h-96 rounded-lg shadow-md">
           <div className="card-body px-10">
-            <h2 className="text-2xl font-semibold leading-snug text-gray-900 dark:text-gray-100">
+            <h2 className="text-2xl font-semibold leading-snug text-gray-900">
               Easy <br /> integration
             </h2>
-            <p className="text-gray-500 dark:text-gray-400">
+            <p className="text-gray-500">
               Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit,
               sed do.
             </p>
@@ -23,12 +24,12 @@ const ThreeCards = () => {
             <Image src={grid} alt="app image 5" />
           </div>
         </div>
-        <div className="card bg-[#F8F8F8] dark:bg-gray-800 md:w-1/2 h-96 pl-8 pb-8 rounded-lg shadow-md">
+        <div className="card bg-[#F8F8F8]  md:w-1/2 h-96 pl-8 pb-8 rounded-lg shadow-md">
           <div className="card-body">
-            <h2 className="text-2xl font-semibold leading-snug text-gray-900 dark:text-gray-100">
+            <h2 className="text-2xl font-semibold leading-snug text-gray-900 ">
               Saving <br /> accounts
             </h2>
-            <p className="text-gray-500 dark:text-gray-400">
+            <p className="text-gray-500">
               Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit,
               sed do.
             </p>
@@ -50,12 +51,12 @@ const ThreeCards = () => {
             </div>
           </div>
         </div>
-        <div className="card bg-[#F8F8F8] dark:bg-gray-800 md:w-1/2 h-96 pl-8 pb-8 rounded-lg shadow-md">
+        <div className="card bg-[#F8F8F8]  md:w-1/2 h-96 pl-8 pb-8 rounded-lg shadow-md">
           <div className="card-body">
-            <h2 className="text-2xl font-semibold leading-snug text-gray-900 dark:text-gray-100">
+            <h2 className="text-2xl font-semibold leading-snug text-gray-900 ">
               Investment <br /> plans
             </h2>
-            <p className="text-gray-500 dark:text-gray-400">
+            <p className="text-gray-500">
               Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit,
               sed do.
             </p>
@@ -66,6 +67,7 @@ const ThreeCards = () => {
         </div>
       </div>
     </div>
+  </section>
   );
 };
 
