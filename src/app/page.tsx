@@ -1,3 +1,4 @@
+import Account from "@/Components/components/frontpage/Account";
 import Banner from "@/Components/components/frontpage/Banner";
 import Notifications from "@/Components/components/frontpage/Notifications";
 import OneAppOneBanking from "@/Components/components/frontpage/OneAppOneBanking";
@@ -15,6 +16,7 @@ const Home = () => {
       <Organize />
       <Notifications />
       <Sponsor />
+      <Account />
     </div>
   );
 };

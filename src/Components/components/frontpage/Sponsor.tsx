@@ -21,7 +21,7 @@ const Sponsor = () => {
   ];
 
   return (
-    <section className="bg-white py-10 px-4">
+    <section className="bg-white py-10 px-4 border-b border-gray-100">
       <div className="max-w-5xl mx-auto">
         {/* sponsor section here  */}
         <div className="space-y-2 mb-10">
