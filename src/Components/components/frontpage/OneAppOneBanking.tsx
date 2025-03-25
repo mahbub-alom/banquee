@@ -1,4 +1,4 @@
-'use client';
+
 
 import Image from 'next/image';
 import vector from '/public/icons/Vector.png';
@@ -19,7 +19,7 @@ export default function BankingAppPage() {
   ];
 
   return (
-    <section className="bg-gray-50 min-h-screen flex items-center justify-center px-6 md:px-12 py-12">
+    <section className="bg-white min-h-screen flex items-center justify-center px-6 md:px-12 py-12">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start gap-10">
         {/* Left Content */}
         <div className="text-center md:text-left max-w-lg flex-1">
