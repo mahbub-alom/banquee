@@ -8,14 +8,14 @@ import { IoMdCheckmark } from "react-icons/io";
 
 const Banner = () => {
   return (
-    <section className="bg-gray-50 min-h-screen flex items-center justify-center px-6 md:px-12">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
+    <section className="bg-[#E8F2EE] min-h-screen flex items-center justify-center px-6 md:px-12">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-start items-center gap-10">
         {/* Left Content */}
         <div className="text-center md:text-left max-w-lg">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
             Banking <br /> starts here.
           </h1>
-          <p className="text-gray-600 mt-4">
+          <p className="text-xl text-gray-900 leading-tight mt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore.
           </p>
