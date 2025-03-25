@@ -16,7 +16,7 @@ const Banner = () => {
         </p>
         <div className="mt-6 flex flex-col md:flex-row justify-center gap-4 md:gap-6">
           <Button>Open Account</Button>
-          <button className="text-[#5bb5a2] font-bold flex items-center justify-center gap-2">
+          <button className="text-[#5bb5a2]  flex items-center justify-center gap-2">
             Compare Cards <FaArrowRight />
           </button>
         </div>
