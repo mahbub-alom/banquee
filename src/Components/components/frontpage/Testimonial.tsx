@@ -28,7 +28,7 @@ const Testimonials = () => {
 
         {/* Testimonial Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 auto-rows-min">
-          <div className="border border-gray-200 rounded-md p-6 space-y-4 h-min">
+          <div className="border border-gray-200 rounded-md p-6 space-y-4 h-fit">
             <p className="flex gap-2 text-[#5BB5A2]">
               <FaStar />
               <FaStar />
@@ -50,7 +50,7 @@ const Testimonials = () => {
             </div>
           </div>
           {/* 2nd  */}
-          <div className="border border-gray-200 rounded-md p-6 space-y-4 h-min">
+          <div className="border border-gray-200 rounded-md p-6 space-y-4 h-fit">
             <p className="flex gap-2 text-[#5BB5A2]">
               <FaStar />
               <FaStar />
@@ -75,7 +75,7 @@ const Testimonials = () => {
             </div>
           </div>
           {/* 3nd */}
-          <div className="border border-gray-200 rounded-md p-6 space-y-4 h-min">
+          <div className="border border-gray-200 rounded-md p-6 space-y-4 h-fit">
             <p className="flex gap-2 text-[#5BB5A2]">
               <FaStar />
               <FaStar />
@@ -98,7 +98,7 @@ const Testimonials = () => {
             </div>
           </div>
           {/* 4th */}
-          <div className="border border-gray-200 rounded-md p-6 space-y-4 -mt-24 h-min">
+          <div className="border border-gray-200 rounded-md p-6 space-y-4 -mt-24 h-fit">
             <p className="flex gap-2 text-[#5BB5A2]">
               <FaStar />
               <FaStar />
@@ -120,7 +120,7 @@ const Testimonials = () => {
             </div>
           </div>
           {/* 5h */}
-          <div className="border border-gray-200 rounded-md p-6 space-y-4 h-min">
+          <div className="border border-gray-200 rounded-md p-6 space-y-4 h-fit">
             <p className="flex gap-2 text-[#5BB5A2]">
               <FaStar />
               <FaStar />
@@ -143,7 +143,7 @@ const Testimonials = () => {
             </div>
           </div>
           {/* 6th */}
-          <div className="border border-gray-200 rounded-md p-6 space-y-4 -mt-12 h-min">
+          <div className="border border-gray-200 rounded-md p-6 space-y-4 -mt-12 h-fit">
             <p className="flex gap-2 text-[#5BB5A2]">
               <FaStar />
               <FaStar />
