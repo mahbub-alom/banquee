@@ -1,5 +1,4 @@
 import React from "react";
-import { CheckCircle } from "lucide-react";
 import Image from "next/image";
 import { IoMdCheckmark } from "react-icons/io";
 import free from "/public/compare/icons/free.png";
