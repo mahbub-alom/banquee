@@ -6,11 +6,10 @@ import card2 from "/public/image/card2.png";
 
 const Pricing = () => {
   return (
-    <section className="bg-white">
-      <div className="">
-      <div className="grid md:grid-cols-3 gap-8 mt-12 max-w-4xl ml-auto mx-24">
+    <section className="bg-white ">
+      <div className="grid md:grid-cols-3 gap-8 pt-12 max-w-4xl ml-auto mx-24">
         {/* Basic Card */}
-        <div className="bg-white p-6 rounded-xl">
+        <div className="bg-white ">
           <div className="text-center">
             <h4 className="text-base sm:text-lg md:text-xl font-semibold text-gray-900 inline-flex items-center justify-center">
               Basic
@@ -40,7 +39,7 @@ const Pricing = () => {
         </div>
 
         {/* Premium Card */}
-        <div className="bg-white p-6 rounded-xl">
+        <div className="bg-white text-center">
           <h4 className="text-base sm:text-lg md:text-xl font-semibold text-gray-900">
             Premium
           </h4>
@@ -68,7 +67,7 @@ const Pricing = () => {
         </div>
 
         {/* Gold Card */}
-        <div className="bg-white p-6 rounded-xl">
+        <div className="bg-white text-center">
           <h4 className="text-base sm:text-lg md:text-xl font-semibold text-gray-900">
             gold
           </h4>
@@ -94,7 +93,6 @@ const Pricing = () => {
             Get started
           </button>
         </div>
-      </div>
       </div>
     </section>
   );
